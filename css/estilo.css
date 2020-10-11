@@ -3,12 +3,53 @@
 body {  
     background-color: #fff;  
 }  
-header{
+
+header {
 	background:orange;
 }
+
 img {  
 	border: 1px solid #ddd;
   	border-radius: 4px;
   	padding: 5px;
   	width: 150px; 
+}
+
+footer {
+	text-align: left;
+	padding-top: 1.5%;
+	padding-bottom: 1.5px;
+	padding-left: 5%;
+	background-color: rgb(1, 1, 75);
+	color: white;
+}
+
+#Icons {
+	padding-left: 80%;
+}
+
+.SocialMediaIcons {
+  	width: 30px;
+  	margin: 5px;
+	border-radius: 80%;
+}
+
+.SocialMediaIcons:hover {
+	opacity: 0.7;
+}
+
+#InstagramIcon {
+	background: rgb(18, 86, 136);
+}
+
+#FacebookIcon {
+	background: rgb(59, 89, 152);
+}
+
+#LinkedinIcon {
+	background: rgb(0, 123, 181);
+}
+
+#EmailIcon {
+	background: rgb(0, 65, 106);
 }
