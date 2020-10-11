@@ -1,9 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-	<title>Projeto WEB</title>
+    <!-- Home do e-commerce 11/10-->
+    <meta charset="UTF-8">
+    <title>Home e-commerce</title>
 </head>
 <body>
-
+    <div id="site">
+        <!-- header e footer são pertencentes a uma mesma classe-->
+        <header id="informacoes_cabecalho" class="cabecalho">
+        </header>
+        <main>
+            <!-- colocar na tag 'nav' a barra de busca, registrar, entrar, carrinho e perfil -->
+            <nav id="buscar_e_opcoes">
+                <button type="button" onclick="alert('precisamos disso? kkk')">Registrar</button></br>
+                Buscar<br/>
+                <input type="text" placeholder="Digite o nome do produto que deseja buscar..."><br/>
+                <button type="button" onclick="alert('precisamos disso? kkk')">Entrar</button>
+                <button type="button" onclick="alert('precisamos disso? kkk')">Carrinho</button>
+                <button type="button" onclick="alert('precisamos disso? kkk')">Perfil</button>
+            </nav>
+            <section id="conteudos" class="secoes_de_conteudo">
+                <article id="destaques" class="secoes_de_conteudo">
+                    <h3>Destaques</h3></br>
+                    <div id="container_destaques" class="container_de_imagens">
+                        <!--colocar as imagens de "destaques:"-->
+                        <img id="" class="imagens">
+                    </div>
+                </article>
+                <article id="promocoes" class="secoes_de_conteudo">
+                    <h3>Promoções</h3></br>
+                    <div id="container_promocoes" class="container_de_imagens">
+                        <!--colocar as imagens de "promocoes:"-->
+                        <img id="" class="imagens">
+                    </div>
+                </article>
+                <article id="categorias" class="secoes_de_conteudo">
+                    <h3>Categorias</h3></br>
+                    <div id="container_categorias" class="container_de_imagens">
+                        <!--colocar as imagens de "categorias:"-->
+                        <img id="" class="imagens">
+                    </div>
+                </article>                
+            </section>
+        </main>
+        <footer id="rodape" class="cabecalho">
+        </footer>
+    </div>
 </body>
 </html>
