@@ -1,0 +1,12 @@
+/*Folha de estilo*/
+
+body {  
+    background-color: #fff;  
+}  
+header{
+	background:orange;
+}
+h4 {  
+    color: #fff;  
+    margin-left: 20px;  
+}
