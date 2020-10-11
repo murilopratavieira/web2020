@@ -13,13 +13,23 @@
         </header>        
         <main>
             <!-- colocar na tag 'nav' a barra de busca, registrar, entrar, carrinho e perfil -->
-            <nav id="buscar_e_opcoes">
-                <button type="button" onclick="alert('precisamos disso? kkk')">Registrar</button></br>
-                Buscar<br/>
-                <input type="text" placeholder="Digite o nome do produto que deseja buscar..."><br/>
-                <button type="button" onclick="alert('precisamos disso? kkk')">Entrar</button>
-                <button type="button" onclick="alert('precisamos disso? kkk')">Carrinho</button>
-                <button type="button" onclick="alert('precisamos disso? kkk')">Perfil</button>
+            <nav>
+                <ul id="menu">
+                    <div>
+                        <li><a href="">Registrar</a></li>
+                    </div>
+
+                    <div id="search">  
+                        <input type="text" id="search-bar" placeholder="Digite o nome do produto que deseja buscar...">
+                        <button type="button" onclick="alert('Busca a ser implementada')">Buscar</button>
+                    </div>
+
+                    <div id="profile">
+                        <li><a href="">Entrar</a></li>
+                        <li><a href="">Carrinho</a></li>
+                        <button type="button" id="profile-pic" onclick="alert('Direcionar para página do usuário')"><!-- Foto do perfil --></button>
+                    </div>
+                </ul>
             </nav>
             <section id="conteudos" class="secoes_de_conteudo">
                 <article id="destaques" class="secoes_de_conteudo">
