@@ -6,7 +6,9 @@ body {
 header{
 	background:orange;
 }
-h4 {  
-    color: #fff;  
-    margin-left: 20px;  
+img {  
+	border: 1px solid #ddd;
+  	border-radius: 4px;
+  	padding: 5px;
+  	width: 150px; 
 }
