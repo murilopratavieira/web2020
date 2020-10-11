@@ -3,9 +3,9 @@
 <head>
     <!-- Home do e-commerce 11/10-->
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <title>Home e-commerce</title>
 </head>
-<link rel="stylesheet" type="text/css" href="css/estilo.css">
 <body>
     <div id="site">
         <!-- header e footer são pertencentes a uma mesma classe-->
@@ -22,11 +22,13 @@
                 <button type="button" onclick="alert('precisamos disso? kkk')">Perfil</button>
             </nav>
             <section id="conteudos" class="secoes_de_conteudo">
-                <article id="destaques" class="secoes_de_conteudo">
+                <article class="destaques">
                     <h3>Destaques</h3></br>
-                    <div id="container_destaques" class="container_de_imagens">
+                    <div id="container_destaques">
                         <!--colocar as imagens de "destaques:"-->
-                        <img id="" class="imagens">
+                        <img src="images/moletom.png" id="" class="imagens_destaque">
+                        <img src="images/moletom.png" id="" class="imagens_destaque">
+                        <img src="images/moletom.png" id="" class="imagens_destaque">
                     </div>
                 </article>
                 <article id="promocoes" class="secoes_de_conteudo">
@@ -49,30 +51,7 @@
                 </article>                
             </section>
         </main>
-        <footer>
-            <div id="FooterText">
-                <p class="FooterAlignment">BEUNI</br>
-                <!--
-                    Endereço e telefone fictícios inseridos temporariamente
-                -->
-                <p class="FooterAlignment">Endereço: Alameda dos Universitários, S/N - São Carlos-SP</p>
-                <p class=FooterAlignment>Telefone: (16) 9999-9999 </p>
-                <p class="FooterAlignment">© 2020 </p>
-            </div>
-            <div id="Icons">
-                <a href="https://www.instagram.com/beunibr/">
-                <img class="SocialMediaIcons" id="InstagramIcon" src="images/instagram-logo.png" alt="Instagram Logo">
-                </a>
-                <a href="https://www.facebook.com/beunibr/">
-                <img class="SocialMediaIcons" id="FacebookIcon" src="images/facebook-logo.png" alt="Facebook Logo">
-                </a>
-                <a href="https://www.linkedin.com/company/beuni/">
-                <img class="SocialMediaIcons" id="LinkedinIcon" src="images/linkedin-logo.png" alt="Linkedin Logo">
-                </a>
-                <a href="exemplo@beuni.com">
-                <img class="SocialMediaIcons" id="EmailIcon" src="images/email-logo.png" alt="Email Logo">
-                </a>
-            </div>
+        <footer id="rodape" class="cabecalho">
         </footer>
     </div>
 </body>
