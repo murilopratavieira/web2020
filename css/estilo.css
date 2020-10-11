@@ -1,11 +1,63 @@
 /*Folha de estilo*/
 
-body {  
+body {
+	margin: 0;
     background-color: #fff;  
-}  
+}
+
 header{
 	background:orange;
 }
+
+#menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #FD6A02;
+	list-style-type: none;
+	margin: 0px;
+}
+
+#menu li {
+	display: block;  
+	line-height: 55px;
+}
+
+#menu li a {  
+    padding: 0 20px;  
+    color: #FFF;  
+    text-decoration: none;
+}
+
+#menu li:hover {  
+    background-color: #EF820D;
+}
+
+#menu button {
+	margin: 10px;
+}
+
+#search-bar {
+	border-radius: 25px;
+    border: 2px solid #FD6A02;
+    padding: 20px; 
+    width: 300px;
+}
+
+#profile {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	margin: 0 30px;
+}
+
+#profile button {
+	border: none;
+	padding: 20px;
+	background-color: white;
+	border-radius: 100%;
+}
+
 img {  
 	border: 1px solid #ddd;
   	border-radius: 4px;
